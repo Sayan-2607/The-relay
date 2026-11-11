@@ -1,0 +1,7 @@
+data/papers/*.txt
+data/papers/*.pdf
+results/*
+!results/.gitkeep
+standin_config.json
+limits.json
+.env

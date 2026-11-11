@@ -1,0 +1,202 @@
+[
+ {
+  "id": "q01",
+  "q": "How many identical layers make up the encoder stack of the base Transformer?",
+  "type": "answerable",
+  "paper": "attn",
+  "gold_regex": [
+   "\\b6\\b|six"
+  ],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q02",
+  "q": "What are d_model and the feed-forward inner dimension in the base Transformer?",
+  "type": "answerable",
+  "paper": "attn",
+  "gold_regex": [
+   "512",
+   "2048"
+  ],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q03",
+  "q": "Why do the authors scale the dot products by 1/sqrt(d_k)?",
+  "type": "answerable",
+  "paper": "attn",
+  "gold_regex": [
+   "softmax",
+   "gradient"
+  ],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q04",
+  "q": "What optimizer and warmup_steps were used to train the Transformer?",
+  "type": "answerable",
+  "paper": "attn",
+  "gold_regex": [
+   "Adam",
+   "4000"
+  ],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q05",
+  "q": "What label smoothing value did the Transformer authors use?",
+  "type": "answerable",
+  "paper": "attn",
+  "gold_regex": [
+   "0\\.1"
+  ],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q06",
+  "q": "How are positional encodings computed in the Transformer?",
+  "type": "answerable",
+  "paper": "attn",
+  "gold_regex": [
+   "sine|sin",
+   "cosine|cos"
+  ],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q07",
+  "q": "What BLEU score did the big Transformer get on WMT 2014 English-to-German?",
+  "type": "answerable",
+  "paper": "attn",
+  "gold_regex": [
+   "28\\.4"
+  ],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q08",
+  "q": "What frame rate and bitrate does the Mimi codec operate at?",
+  "type": "answerable",
+  "paper": "moshi",
+  "gold_regex": [
+   "12\\.5",
+   "1\\.1"
+  ],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q09",
+  "q": "What theoretical and practical latency does Moshi report?",
+  "type": "answerable",
+  "paper": "moshi",
+  "gold_regex": [
+   "160",
+   "200"
+  ],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q10",
+  "q": "What is Inner Monologue in Moshi?",
+  "type": "answerable",
+  "paper": "moshi",
+  "gold_regex": [
+   "text"
+  ],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q11",
+  "q": "How many parameters does the Helium text model behind Moshi have?",
+  "type": "answerable",
+  "paper": "moshi",
+  "gold_regex": [
+   "7\\s*B|7 billion|7B"
+  ],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q12",
+  "q": "How does Moshi handle overlapping speech from the user and the system?",
+  "type": "answerable",
+  "paper": "moshi",
+  "gold_regex": [
+   "stream"
+  ],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q13",
+  "q": "What are the two main components of the dynamic chunking mechanism?",
+  "type": "answerable",
+  "paper": "hnet",
+  "gold_regex": [
+   "rout",
+   "smooth"
+  ],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q14",
+  "q": "How does the routing module decide where chunk boundaries go?",
+  "type": "answerable",
+  "paper": "hnet",
+  "gold_regex": [
+   "cosine|similar"
+  ],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q15",
+  "q": "What are the main network stages of the H-Net architecture?",
+  "type": "answerable",
+  "paper": "hnet",
+  "gold_regex": [
+   "encoder",
+   "decoder"
+  ],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q16",
+  "q": "Does the Attention Is All You Need paper report speech recognition results?",
+  "type": "unanswerable",
+  "paper": "attn",
+  "gold_regex": [],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q17",
+  "q": "How does the original Transformer compare with GPT-4 on MMLU?",
+  "type": "unanswerable",
+  "paper": "attn",
+  "gold_regex": [],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q18",
+  "q": "What BLEU did the Transformer reach on the WMT 2020 news task?",
+  "type": "unanswerable",
+  "paper": "attn",
+  "gold_regex": [],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q19",
+  "q": "Who won the 2022 FIFA World Cup?",
+  "type": "offtopic",
+  "paper": "",
+  "gold_regex": [],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ },
+ {
+  "id": "q20",
+  "q": "Which paper introduces the Mimi codec, and which paper introduces dynamic chunking?",
+  "type": "answerable",
+  "paper": "moshi",
+  "gold_regex": [
+   "Mimi|moshi"
+  ],
+  "note": "GOLD FROM MEMORY - verify against the PDF, then write/replace with your own questions"
+ }
+]

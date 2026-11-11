@@ -1,0 +1,2 @@
+3 Method
+The dynamic chunking mechanism has a routing module that predicts boundaries between adjacent elements using the cosine similarity of their representations, and a smoothing module.

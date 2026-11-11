@@ -1,0 +1,2 @@
+# Only fetch_papers.py needs a dependency. Everything else is Python 3.11+ stdlib.
+pypdf>=4.0

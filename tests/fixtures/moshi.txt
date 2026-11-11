@@ -1,0 +1,2 @@
+3 Model
+Mimi is a neural audio codec that operates at a frame rate of 12.5 Hz and a bitrate of 1.1 kbps. Moshi has a theoretical latency of 160 ms and 200 ms in practice.
